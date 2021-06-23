@@ -12,6 +12,7 @@
     top: 20px;
     text-align: right;
     font-size: 30px;
+    height: 40px;
 }
 
 .buttons {
@@ -25,6 +26,10 @@
     margin: 10px;
 }
 
+.normal:hover {
+    background-color: rgb(100, 100, 100);
+}
+
 .num {
     margin: 0px;
     text-align: center;
@@ -36,7 +41,7 @@
     grid-column: 3 / 4;
 }
 
-#ent {
+#eq {
     grid-column: 4 / 5;
     grid-row: 4 / 6;
 }
